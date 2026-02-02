@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+venv/
+ENV/
+env/
+.venv
+
+# Jupyter Notebook
+.ipynb_checkpoints
+*.ipynb
+
+# Data files (keep your original data private)
+*.sav
+*.csv
+*.xlsx
+*.xls
+data/
+
+# Model files (too large for Git)
+*.pkl
+*.h5
+*.model
+models/*.pkl
+
+# Results/Output files
+results/*.png
+results/*.jpg
+results/*.pdf
+*.png
+*.jpg
+*.pdf
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# OS
+Thumbs.db
+.DS_Store
+
+# Logs
+*.log
+
+# Environment variables
+.env
+.env.local
