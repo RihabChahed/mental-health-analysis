@@ -6,7 +6,7 @@
 
 A comprehensive machine learning system for predicting mental health conditions, identifying comorbidities, and analyzing risk factors using real-world clinical data.
 
-## 📋 Table of Contents
+## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
 - [Installation](#installation)
@@ -17,7 +17,7 @@ A comprehensive machine learning system for predicting mental health conditions,
 - [Contributing](#contributing)
 - [Author](#author)
 
-## 🎯 Overview
+## Overview
 
 This project was developed as part of a final-year internship at **Farhat Hached Hospital** in Tunisia. The goal is to create an intelligent platform for mental health data management and analysis, specifically focusing on:
 
@@ -30,22 +30,22 @@ The system aims to assist healthcare professionals in:
 - Understanding relationships between different mental health disorders
 - Identifying the most significant risk factors for intervention
 
-## ✨ Features
+## Features
 
-### 🔮 Depression Prediction
+### Depression Prediction
 - Binary classification (depressed vs. non-depressed)
 - Support Vector Machine (SVM) with linear kernel
 - Handles class imbalance using SMOTE
 - Cross-validation for robust evaluation
 - Achieves ~82% accuracy with 5-fold CV
 
-### 🔗 Comorbidity Detection
+### Comorbidity Detection
 - Hierarchical Agglomerative Clustering
 - Optimal cluster selection using Silhouette Score
 - Jaccard distance for binary health condition data
 - Identifies frequently co-occurring mental health conditions
 
-### 📊 Risk Factor Analysis
+### Risk Factor Analysis
 - Random Forest for feature importance
 - Analyzes 6 mental health conditions:
   - Anxiety disorders
@@ -56,7 +56,7 @@ The system aims to assist healthcare professionals in:
   - Gaming addiction
 - Identifies top risk factors for each condition
 
-## 🚀 Installation
+## Installation
 
 ### Prerequisites
 - Python 3.8 or higher
@@ -84,7 +84,7 @@ source venv/bin/activate
 pip install -r requirements.txt
 ```
 
-## 💻 Usage
+##  Usage
 
 ### Basic Usage
 
@@ -133,7 +133,7 @@ else:
     print("Result: Patient IS at risk for depression")
 ```
 
-## 🧪 Models
+## Models
 
 ### 1. Depression Prediction (SVM)
 
@@ -177,7 +177,7 @@ else:
 
 **Purpose:** Identify the most important predictors for each mental health condition
 
-## 📈 Results
+## Results
 
 ### Key Findings
 
@@ -204,7 +204,7 @@ else:
 ![Feature Importance](results/feature_importance_all_conditions.png)
 *Top risk factors for each mental health condition*
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 mental-health-analysis/
@@ -236,14 +236,14 @@ mental-health-analysis/
 - **Class imbalance:** SMOTE oversampling
 
 ### Best Practices Implemented
-- ✅ Train-test split before preprocessing (avoids data leakage)
-- ✅ Cross-validation for robust evaluation
-- ✅ Comprehensive metrics (precision, recall, F1-score)
-- ✅ Silhouette analysis for optimal clustering
-- ✅ Model persistence (save/load trained models)
-- ✅ Reproducibility (random_state set everywhere)
+- Train-test split before preprocessing (avoids data leakage)
+- Cross-validation for robust evaluation
+- Comprehensive metrics (precision, recall, F1-score)
+- Silhouette analysis for optimal clustering
+- Model persistence (save/load trained models)
+- Reproducibility (random_state set everywhere)
 
-## 🤝 Contributing
+## Contributing
 
 Contributions are welcome! Please feel free to submit a Pull Request.
 
@@ -253,25 +253,25 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-## 📧 Author
+## Author
 
 **Rihab CHAHED**
 
-- 📧 Email: chahedryhab@gmail.com
-- 💼 LinkedIn: [rihab-chahed](https://www.linkedin.com/in/rihab-chahed-557597226)
-- 🎓 Master's in Data Science - Higher Institute of Computer Science and Mathematics of Monastir
+- Email: chahedryhab@gmail.com
+- LinkedIn: [rihab-chahed](https://www.linkedin.com/in/rihab-chahed-557597226)
+- Master's in Data Science - Higher Institute of Computer Science and Mathematics of Monastir
 
-## 📝 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **Farhat Hached Hospital** for providing the clinical data and internship opportunity
 - **Faculty of Sciences of Monastir** for academic supervision
 - The scikit-learn and Python data science community
 
-## ⚠️ Disclaimer
+## Disclaimer
 
 This system is intended for research and educational purposes only. It should not be used as a substitute for professional medical diagnosis or treatment. Always consult qualified healthcare professionals for medical advice.
 
