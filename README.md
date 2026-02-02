@@ -1,4 +1,4 @@
-# 🧠 Mental Health Prediction and Analysis System
+# Mental Health Prediction and Analysis System
 
 [![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)](https://www.python.org/)
 [![scikit-learn](https://img.shields.io/badge/scikit--learn-1.0+-orange.svg)](https://scikit-learn.org/)
@@ -268,7 +268,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgments
 
 - **Farhat Hached Hospital** for providing the clinical data and internship opportunity
-- **Faculty of Sciences of Monastir** for academic supervision
+- **Higher School of Sciences and Technology of Hammam Sousse** for academic supervision
 - The scikit-learn and Python data science community
 
 ## Disclaimer
